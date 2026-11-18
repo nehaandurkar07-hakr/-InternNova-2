@@ -1,0 +1,13 @@
+import numpy as np
+arr=np.array ([10,20,30,40,50,60,70,80,90,100])
+print ("numpy array:")
+print(arr)
+print("shape of array :",arr.shape)
+print("size of array:",arr.size)
+print("data type:",arr.dtype)
+one_d=np.array([1,2,3,4,5])
+print("one dimensional array:")
+print(one_d)
+two_d=np.array([[1,2,3],[4,5,6]])
+print("two dimensional array:")
+print(two_d)
